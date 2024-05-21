@@ -1,0 +1,51 @@
+intents:
+  greet:
+    - text: "Hi, my name is [name]."
+      entities:
+        - name
+    - text: "Hello, I'm [username]."
+      entities:
+        - username
+    - text: "Good morning!"
+    - text: "Hey there!"
+    - text: "Greetings!"
+    - text: "Hey"
+    - text: "hello"
+
+  book_table:
+    - text: "I'd like to book a table for [number] people."
+      entities:
+        - number
+    - text: "Can I reserve a table for [number]?"
+      entities:
+        - number
+    - text: "Table for [number], please."
+      entities:
+        - number
+    - text: "Is there a table available for [number] guests?"
+      entities:
+        - number
+    - text: "I want to make a reservation for [number] people."
+      entities:
+        - number
+
+  order_food:
+    - text: "I'd like to order a pizza."
+    - text: "Can I get a burger, please?"
+    - text: "Do you have vegetarian options?"
+    - text: "I'm craving sushi tonight."
+    - text: "Could you recommend a dish for me?"
+
+  inquire_hours:
+    - text: "What are your opening hours?"
+    - text: "When do you close today?"
+    - text: "What time do you open tomorrow?"
+    - text: "Are you open on weekends?"
+    - text: "Can you tell me your operating hours?"
+
+  inquire_location:
+    - text: "Where are you located?"
+    - text: "What's your address?"
+    - text: "How do I get to your restaurant?"
+    - text: "Can you provide directions to your place?"
+    - text: "Whereabouts are you situated?"

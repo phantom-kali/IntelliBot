@@ -1,0 +1,44 @@
+intents:
+  greet:
+    entities: 
+      - PERSON
+    responses:
+      - text: "Hello[PERSON]! How can I assist you today?"
+      - text: "Hi there[PERSON]! What can I do for you?"
+      - text: "Hey[PERSON]! How may I help you?"
+
+  book_table:
+    entities: 
+      - number
+    responses:
+      - text: "Sure! How many people would you like to book the table for?"
+      - text: "Certainly! For how many guests should I book the table?"
+      - text: "Of course! How many people will be dining?"
+      - text: "Absolutely! How many guests will be attending?"
+      - text: "Sure thing! How many people should I make the reservation for?"
+    action: book_table_action
+
+  order_food:
+    responses:
+      - text: "Sure! What would you like to order?"
+      - text: "Absolutely! What can I get for you?"
+      - text: "Of course! What are you in the mood for?"
+      - text: "No problem! What would you like to eat?"
+      - text: "Got it! What can I prepare for you?"
+    action: order_food_action
+
+  inquire_hours:
+    responses:
+      - text: "We are open from 9 AM to 9 PM every day."
+      - text: "Our opening hours are 9 AM to 9 PM, seven days a week."
+      - text: "We operate from 9 in the morning until 9 at night."
+      - text: "Our business hours are 9 AM to 9 PM daily."
+      - text: "We are open daily from 9 AM to 9 PM."
+
+  inquire_location:
+    responses:
+      - text: "We are located at 123 Main Street, Springfield."
+      - text: "You can find us at 123 Main Street, Springfield."
+      - text: "Our address is 123 Main Street, Springfield."
+      - text: "We are situated at 123 Main Street, Springfield."
+      - text: "Our location is 123 Main Street, Springfield."
