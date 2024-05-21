@@ -1,4 +1,3 @@
-```markdown
 # IntelliBot
 
 IntelliBot is a customizable chatbot framework designed to handle natural language understanding (NLU) and dialogue management tasks efficiently. This project leverages libraries such as spaCy, scikit-learn, and Word2Vec to create a robust conversational agent capable of handling various intents and providing relevant responses.
