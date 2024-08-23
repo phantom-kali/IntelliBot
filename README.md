@@ -46,7 +46,7 @@ IntelliBot is a customizable chatbot framework designed to handle natural langua
     python main.py
     ```
 
-3. Interact with the bot by typing in user inputs.
+3. Interact with the bot by typing in user inputs. To make the bot more accurate, include many training samples in @yams/intents.yml
 
 ## Configuration
 
