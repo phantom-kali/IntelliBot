@@ -29,6 +29,10 @@ IntelliBot is a customizable chatbot framework designed to handle natural langua
     ```bash
     pip install -r requirements.txt
     ```
+4. Install the spacy model:
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
 
 ## Usage
 
